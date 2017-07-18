@@ -13,13 +13,15 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 
 import com.sargent.mark.todolist.data.Contract;
 import com.sargent.mark.todolist.data.DBHelper;
 
 public class MainActivity extends AppCompatActivity implements AddToDoFragment.OnDialogCloseListener, UpdateToDoFragment.OnUpdateDialogCloseListener{
-
+    private Spinner filter;
     private RecyclerView rv;
     private FloatingActionButton button;
     private DBHelper helper;
@@ -33,6 +35,12 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(TAG, "oncreate called in main activity");
+
+        filter = (Spinner) findViewById(R.id.filter_spinner);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.spinner_categories, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        filter.setAdapter(adapter);
+
         button = (FloatingActionButton) findViewById(R.id.addToDo);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
 
         adapter = new ToDoListAdapter(cursor, new ToDoListAdapter.ItemClickListener() {
 
+            //categories put into here
             @Override
             public void onItemClick(int pos, String description, String duedate, long id) {
                 Log.d(TAG, "item click id: " + id);

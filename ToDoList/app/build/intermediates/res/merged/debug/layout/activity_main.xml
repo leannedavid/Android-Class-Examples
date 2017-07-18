@@ -9,6 +9,12 @@
     android:weightSum="1"
     tools:context="com.sargent.mark.todolist.MainActivity">
 
+    <Spinner
+        android:id="@+id/filter_spinner"
+        android:background="@color/colorAccent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"

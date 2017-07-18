@@ -6,9 +6,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 
 import java.util.Calendar;
 
@@ -23,11 +25,12 @@ public class UpdateToDoFragment extends DialogFragment {
     private Button add;
     private final String TAG = "updatetodofragment";
     private long id;
+    Spinner spinner;
 
 
     public UpdateToDoFragment(){}
 
-    public static UpdateToDoFragment newInstance(int year, int month, int day, String descrpition, long id) {
+    public static UpdateToDoFragment newInstance(int year, int month, int day, String description, long id) {
         UpdateToDoFragment f = new UpdateToDoFragment();
 
         // Supply num input as an argument.
@@ -36,7 +39,8 @@ public class UpdateToDoFragment extends DialogFragment {
         args.putInt("month", month);
         args.putInt("day", day);
         args.putLong("id", id);
-        args.putString("description", descrpition);
+        args.putString("description", description);
+        //args.putString("category", category);
 
         f.setArguments(args);
 
@@ -54,6 +58,11 @@ public class UpdateToDoFragment extends DialogFragment {
         toDo = (EditText) view.findViewById(R.id.toDo);
         dp = (DatePicker) view.findViewById(R.id.datePicker);
         add = (Button) view.findViewById(R.id.add);
+        spinner = (Spinner) view.findViewById(R.id.category_spinner);
+
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(), R.array.spinner_categories, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
 
         int year = getArguments().getInt("year");
         int month = getArguments().getInt("month");
