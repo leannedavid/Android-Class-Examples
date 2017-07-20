@@ -82,6 +82,8 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
             checkBox = (CheckBox) view.findViewById(R.id.checkbox);
             descr = (TextView) view.findViewById(R.id.description);
             due = (TextView) view.findViewById(R.id.dueDate);
+
+            //added the spinner
             spinner = (Spinner) view.findViewById(R.id.category_spinner);
             view.setOnClickListener(this);
         }
@@ -93,7 +95,8 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
 
             duedate = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE));
             description = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION));
-            //spinner.OnClickListener(this);
+
+            //grabs the spinner value from the DB
             spinner_value = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_CATEGORY));
             descr.setText(description);
             due.setText(duedate);
@@ -103,6 +106,7 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
         @Override
         public void onClick(View v) {
             int pos = getAdapterPosition();
+            //included the spinner
             listener.onItemClick(pos, description, duedate, id, spinner_value);
         }
     }

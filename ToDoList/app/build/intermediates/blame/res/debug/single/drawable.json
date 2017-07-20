@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/leannedavid/.android/build-cache/41532529fdb98617b3ac11ec989afe98e52931b8/output/res/drawable/design_password_eye.xml"
+        "merged": "/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/leannedavid/.android/build-cache/8daa85cc6becce40290894f1a49c4fa6705880d3/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
         "merged": "/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/Users/leannedavid/.android/build-cache/41532529fdb98617b3ac11ec989afe98e52931b8/output/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/leannedavid/.android/build-cache/8daa85cc6becce40290894f1a49c4fa6705880d3/output/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/leannedavid/.android/build-cache/41532529fdb98617b3ac11ec989afe98e52931b8/output/res/drawable/design_password_eye.xml"
     },
     {
         "merged": "/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",

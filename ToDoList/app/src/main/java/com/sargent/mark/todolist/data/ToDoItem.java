@@ -12,7 +12,7 @@ public class ToDoItem {
     public ToDoItem(String description, String dueDate, String category) {
         this.description = description;
         this.dueDate = dueDate;
-        this.category = category;
+        this.category = category; //added column to handle spinner selection
     }
 
     public String getDescription() {
@@ -31,10 +31,12 @@ public class ToDoItem {
         this.dueDate = dueDate;
     }
 
+    //get method for getting the category
     public String getCategory(){
         return category;
     }
 
+    //set method for setting the category
     public void setCategory(String category){
         this.category = category;
     }

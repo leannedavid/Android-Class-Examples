@@ -26,11 +26,13 @@ public class DBHelper extends SQLiteOpenHelper{
                 Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION + " TEXT NOT NULL, " +
                 Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE + " DATE, " +
                 Contract.TABLE_TODO.COLUMN_NAME_CATEGORY + " TEXT NOT NULL " + "); ";
+                //inserted the category column into the CREATE TABLE query
 
         Log.d(TAG, "Create table SQL: " + queryString);
         db.execSQL(queryString);
     }
-    //had to uninstall the app to make these changes
+
+    //had to uninstall the app on phone/emulator and re-run it to re-instantiate the DB
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {

@@ -6,45 +6,39 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500472480951"
+    timestamp="1500511963410"
     token="4433927793481392904"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="629" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="117" />
     <task
         name="verifier"
-        duration="0" />
+        duration="16" />
 
+    <artifact
+        location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1500471047018"
+        timestamp="1500484659647"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -65,21 +59,41 @@
             location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1500503759710"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1500471738945"
+        timestamp="1500507940231"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1500511963410"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1500472480951"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/leannedavid/AndroidStudioProjects/Android-Class-Examples/ToDoList/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />

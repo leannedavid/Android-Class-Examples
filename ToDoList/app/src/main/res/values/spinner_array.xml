@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Array resource that the user can choose to categorize their to-do item-->
 <resources>
     <array name="spinner_categories">
-        <item>---</item>
         <item>Home</item>
         <item>Work</item>
         <item>School</item>

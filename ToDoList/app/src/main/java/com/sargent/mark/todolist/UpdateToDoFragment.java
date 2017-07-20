@@ -40,7 +40,7 @@ public class UpdateToDoFragment extends DialogFragment {
         args.putInt("day", day);
         args.putLong("id", id);
         args.putString("description", description);
-        //TODO
+        //added category attribute
         args.putString("category", category);
 
         f.setArguments(args);
@@ -50,7 +50,7 @@ public class UpdateToDoFragment extends DialogFragment {
 
     //To have a way for the activity to get the data from the dialog
     public interface OnUpdateDialogCloseListener {
-        //TODO
+        //appended String category to include extra attribute (category)
         void closeUpdateDialog(int year, int month, int day, String description, long id, String category);
     }
 
@@ -60,10 +60,18 @@ public class UpdateToDoFragment extends DialogFragment {
         toDo = (EditText) view.findViewById(R.id.toDo);
         dp = (DatePicker) view.findViewById(R.id.datePicker);
         add = (Button) view.findViewById(R.id.add);
+
+        //instantiate the Spinner from the .xml file onto the activity
         spinner = (Spinner) view.findViewById(R.id.category_spinner);
 
+        //creates an adapter for the current activity using the array resource created for spinner
+        //items using a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(), R.array.spinner_categories, android.R.layout.simple_spinner_item);
+
+        //sets the default layout where the spinner items will appear on
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        //applies the adapter on the spinner
         spinner.setAdapter(adapter);
 
         int year = getArguments().getInt("year");
@@ -75,13 +83,27 @@ public class UpdateToDoFragment extends DialogFragment {
 
         toDo.setText(description);
 
+        //gets the value set for the to-do item
+        String item = getArguments().getString("category");
+
+        //creates an ArrayAdapter to grab the current adapter for the spinner
+        ArrayAdapter spinAdapt = (ArrayAdapter) spinner.getAdapter();
+
+        //gets the position of the item value
+        int defaultPos = spinAdapt.getPosition(item);
+
+        //sets the position of the default selected item for the spinner as the current category
+        //for the to-do item
+        spinner.setSelection(defaultPos);
+
         add.setText("Update");
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 UpdateToDoFragment.OnUpdateDialogCloseListener activity = (UpdateToDoFragment.OnUpdateDialogCloseListener) getActivity();
                 Log.d(TAG, "id: " + id);
-                //TODO
+                //appended String category to include extra attribute (category)
                 activity.closeUpdateDialog(dp.getYear(), dp.getMonth(), dp.getDayOfMonth(), toDo.getText().toString(), id, spinner.getSelectedItem().toString());
                 UpdateToDoFragment.this.dismiss();
             }
