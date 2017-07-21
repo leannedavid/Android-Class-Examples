@@ -30,9 +30,8 @@ import com.firebase.jobdispatcher.Trigger;
 import java.util.concurrent.TimeUnit;
 
 public class ScheduleUtilities {
-    private static final int SCHEDULE_INTERVAL_MINUTES = 1;
-    private static final int SCHEDULE_INTERVAL_SECONDS = (int)(TimeUnit.MINUTES.toSeconds(SCHEDULE_INTERVAL_MINUTES));
-    private static final int SYNC_FLEXTIME_SECONDS = SCHEDULE_INTERVAL_SECONDS;
+    private static final int SCHEDULE_INTERVAL_MINUTES = 360;
+    private static final int SYNC_FLEXTIME_SECONDS = 60;
     private static final String NEWS_JOB_TAG = "news_job_tag";
 
     private static boolean sInitialized;

@@ -1,4 +1,4 @@
-#Wed Jul 19 20:54:05 PDT 2017
+#Fri Jul 21 11:54:45 PDT 2017
 base.0=/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
 renamed.0=classes.dex
 file.0=/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex

@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity
 
         adapter = new MyAdapter(cursor, this);
         rv.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
 
     }
 
@@ -135,7 +136,7 @@ public class MainActivity extends AppCompatActivity
     public void load() {
         LoaderManager loaderManager = getSupportLoaderManager();
         loaderManager.restartLoader(NEWS_LOADER, null, this).forceLoad();
-        adapter.notifyDataSetChanged();
+
     }
 
 }
