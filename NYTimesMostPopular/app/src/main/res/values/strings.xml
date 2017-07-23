@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Popular NYT Articles</string>
+    <string name="refresh">Refresh</string>
+</resources>

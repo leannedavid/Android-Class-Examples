@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/mark/.android/build-cache/869372e31e4351d5e589e7e90e05b16c60584754/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/mark/.android/build-cache/869372e31e4351d5e589e7e90e05b16c60584754/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/mark/.android/build-cache/869372e31e4351d5e589e7e90e05b16c60584754/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/mark/.android/build-cache/869372e31e4351d5e589e7e90e05b16c60584754/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/7c36045f265cff76192bab2db287d5dda7893749/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/classes_a664a96bbfba328c0103a30d44c06f02fdd03694.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/381d43ac383247cbf9e92a38c998be1fb9f2000a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_edbc248d50811e0b896cd448140c4320aa94d1c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/d9bbceaa069e2ba576a8650e82def69899b138cb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/classes_b7a93852c316f13b27f06e52581cc5d7b83876d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_38fb6d95f961acb28ecd593ffbe1883fb2a2217c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/f1f71454fedc9ffe4cae77b3eab40ecab47f008f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/classes_ff1740ddfa8cb16e96d7a28f67ac387ad3c2fc42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/jsr305-2.0.1_10593b1e20eaa078fb3b354133a86d024b8e93aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/javax.annotation-api-1.2_870b91bae275609947192245a9e2434f1f8aecae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/c0f4045acb8ac11b9f8c93c0772a847302cbf1a3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_54474cad03220168191f2c4f79467b2c4a60a281.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/a5bcee08b106e106c4346a9391011f3d74026d1c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/classes_28a44bb26a3322ab759cc1fdf8f40ab08dac67c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/eccf832e5e75c5fea58639115466444f61dcf09a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_88626d22d21329f18d88807708f82b31ed6a31b6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e5065949c572439ccee6508ec1f26e8bc5c7fcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3_a275066fbaceb06b1062bb54a9ecbb8ba4984423.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/1622db40396e78dce35abecfca718ca7dcd98b5b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_b14f72b1f0cab726f614762f7cd70d96f5965ee8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.3_fc719dad4c64cf8cc00cdcfee771ef01aa78b298.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.3_ac889648e618e99808c5a78727cbd20907bf85cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1_2934d76a2d94656592e229aba45373d61b7512c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/39bfd6740557154d01774a4d32d1baf94c01e5ca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/classes_397bef04e737bd7d7bfb14311b9dad578a7eedf2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mark/.android/build-cache/0e9eb8a3bc7221580707f42a3608e81b1bcad3b7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5a424dda1dfed15a9ca112aa128107b948e30e82">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0e9c8dec518abddeaa0f74288dcb301b6d973cfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/javawriter-2.1.1_7fccc54b7633444ba9ee9c590adece9966e30c2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/836b70e554c343fb7cc794e0e492212bf6cea905/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_3577070325a2610a4b4a23ed4fc113a8621c54a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/869372e31e4351d5e589e7e90e05b16c60584754/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_c3dbf0ce11c0ffcc9b6fe306880f0772e26e4a12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/androidTest/debug/junit-4.12_4a5570273945abf681e358b00043755ee33e6028.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/945ba99126de9217d49dde172f1fcd4ff098a95f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_b54386e1bdd25dbc7897dd0488047b2333738b6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/c5a1f9c5ff929750c76616fa3153aede7d0c430b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_b3075851fcabd0104c8fc002b2ff76c11b36c375.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/8dcfffc2b07c02e748276a99653a5d27af046787/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_7893a721040f80a20d1ca3370dbf341822fa40ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/9ab0e773edf283bfd4d523404246900aabb842c2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_1bbaee6e8e4904a536dfaa83266e8838532687f0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mark/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.4.0_229b7735828a3ebe526b65df3a04eb4ac953772a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_a22655f852d54c580e1b730367baf9ff0e3c1582.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mark/.android/build-cache/e04c2f36df01eee355682e2c8b5f4a3c126eb112/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/pre-dexed/debug/classes_2e37d3b1aecab06c424b049b93ea8346d1e97fb2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="75b1febcbccac03ea74203dff09195d9c941b4c7">
+        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9ad50dd8c5855cdd07427986ce523c8ebe25550f/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,7 @@
+#Wed Jul 19 20:37:57 PDT 2017
+base.0=/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e5065949c572439ccee6508ec1f26e8bc5c7fcd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9ad50dd8c5855cdd07427986ce523c8ebe25550f/classes.dex
+base.1=/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9ad50dd8c5855cdd07427986ce523c8ebe25550f
+file.0=/Users/mark/Desktop/AndroidClass/inclass/NYTimesMostPopular/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e5065949c572439ccee6508ec1f26e8bc5c7fcd/classes.dex
